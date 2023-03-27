@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.NavBar{
+  top: 0;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Actions{
+  display: flex;
+  gap: 1.5rem;
+}
+a{
+  text-decoration: none;
+  
+}
+.Actions>button{
+  padding: 0.3rem;
+  width: 5rem;
+  text-decoration: none;
+  text-emphasis: none;
+  border: none;
+  font-weight: 600;
+}
+.Actions #loginBtn{
+  
+  background-color: rgb(87, 243, 113);
+  color: rgb(255, 2, 2);
+}
+.Actions #registerBtn{
+  
+  background-color: rgb(230, 91, 254);
+  color: rgb(255, 2, 2);
+}
+
+.Actions a{
+  color: white;
+}
+
+/* Container Login */
+.loginContainer{
+display: flex;
+height: 90vh;
+justify-content: center;
+align-items: center;
+
+}
+.box{
+  margin: auto;
+  border: 2px solid black;
+  padding: 30px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.box h1{
+  text-align: center;
+}
+.box .inputField{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.inputField input{
+  padding: 5px 10px;
+}
+ #submitbtn{
+  background-color: rgb(28, 28, 125);
+  color: white;
+  font-family: 600;
+  cursor: pointer;
+  padding: 10px;
+}
