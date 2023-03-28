@@ -30,11 +30,12 @@ const Login = () => {
             })
          
             if (adduser.data.status == 1) {
-                alert('InValid User')
+                alert('InValid Username or Password')
                 navigate('/register')
             }
             else {
-                alert('Valid User')
+                localStorage.setItem("user", username);
+                navigate('/dashboard');
             }
        
         }
